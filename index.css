@@ -1056,18 +1056,9 @@ body {
     }
 }
 
-.h-shape {
-    transition: all .4s ease-in-out;
-    width: 100%;
-    min-height: 120%;
-    background-color: rgb(10, 134, 87);
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: -1;
-    clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+.h-shape{
+    display: none;
 }
-
 .image {
     position: absolute;
     height: 500px;
@@ -1106,8 +1097,8 @@ body {
 
 .right-content {
     width: 100%;
-    margin-left: 16rem;
-    margin-top: 70%;
+    margin-left: 7rem;
+    margin-top: 100%;
     padding: 0.5rem;
     font-weight: 400;
     text-align: center;
@@ -1115,7 +1106,7 @@ body {
     span {
         color: rgb(167, 167, 8);
         font-weight: 700;
-        font-size: 2.7rem;
+        font-size: 2.9rem;
         margin-bottom: 7rem;
 
     }
@@ -1165,16 +1156,16 @@ h1 {
 }
 
 .left-about {
-    display: grid;
-    grid-template-columns: repeat(2, .7fr);
+    display: flex;
+    flex-direction: column;
     grid-gap: 1rem;
     grid-template-areas: none;
     position: absolute;
-    top: 6%;
-    left: 36%;
+    top: 8%;
+    left: 85%;
     padding: .5rem;
-    height: 400px;
-    width: 50px;
+    height: 100px;
+    width: 70%;
     cursor: pointer;
 
     .g {
@@ -1221,20 +1212,23 @@ h1 {
     h2 {
         text-align: center;
         position: relative;
-        font-size: 7rem;
+        font-size: 8rem;
         font-weight: 800;
+        margin-left: 55%;
 
         span {
             color: yellow;
+            margin: 3rem;
         }
 
         .bg-txt {
             color: #3a3a97;
             position: absolute;
-            font-size: 3rem;
+            font-size: 2rem;
             font-weight: 200;
-            top: 20%;
-            left: 40%;
+            top: 5%;
+            left: 50%;
+            display: none;
         }
     }
 }
@@ -1242,11 +1236,11 @@ h1 {
 .info {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 80%;
     border: 2px solid rgb(107, 30, 250);
     line-height: normal;
     border-radius: 10px;
-    margin: 2rem;
+    margin-top: 5rem;
     margin-left: 0;
 
     h3 {
@@ -1362,7 +1356,7 @@ h1 {
 }
 
 .message {
-    margin-left: 42rem;
+    margin-left: 12rem;
     margin-bottom: 3rem;
     color: black;
 
@@ -1464,24 +1458,24 @@ textarea:focus {
 .port {
     margin: 0;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     padding: 0;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
 
 
     p {
         color: white;
         display: inline;
         margin: 0;
-        font-size: 2rem;
+        font-size: 1rem;
         padding: 0;
         color: blue;
 
         span {
             color: grey;
-            margin-right: 5rem;
-            margin-left: 5rem;
-            margin-top: 10rem;
+            margin-right: 2rem;
+            margin-left: 2rem;
+            margin-top: 7rem;
         }
     }
 
@@ -1490,6 +1484,7 @@ textarea:focus {
 
 .pss {
     display: flex;
+    flex-direction: column;
     margin-top: 10px;
     align-items: center;
     justify-content: center;
@@ -1513,6 +1508,10 @@ textarea:focus {
         }
 
     }
+    p{
+        align-items: center;
+        margin-left: 50px;
+    }
 }
 
 .b {
@@ -1527,11 +1526,15 @@ h1 {
 }
 
 .bloog {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     width: 89%;
     margin: 10px;
     font-size: 1.5rem;
+
+    p{
+        align-content: center;
+    }
 
     .blog1 {
         margin: 2rem;
@@ -1699,8 +1702,13 @@ h1 {
     height: 900px;
     list-style: none;
     border-radius: 10px;
-    padding: 2rem;
-    margin-left: 8rem;
+    padding: 4rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+
+    h1{
+        margin: 2rem;
+    }
 
     .edu {
         margin: 2rem;
@@ -1769,10 +1777,10 @@ h1 {
 .education::before {
     position: absolute;
     width: 2px;
-    height: 38%;
+    height: 40%;
     background-color: blue;
     content: "";
-    left: 9.35%;
+    left: 14.35%;
 }
 
 li::before {
@@ -1782,11 +1790,11 @@ li::before {
     background-color: blue;
     position: absolute;
     content: "";
-    left: -14.7%;
+    left: -1.7%;
 }
 
 .experience {
-    width: 550px;
+    width: 700px;
     height: 900px;
     list-style: none;
     border-radius: 10px;
@@ -1797,7 +1805,7 @@ li::before {
         margin: 2rem;
         background-color: rgb(43, 28, 28);
         border: 1px solid gray;
-        padding: 1rem;
+        padding: 2rem;
         line-height: 1cm;
         border-radius: 10px;
         position: relative;
@@ -1882,10 +1890,10 @@ li::before {
 .experience::before {
     position: absolute;
     width: 2px;
-    height: 38%;
+    height: 40%;
     background-color: blue;
     content: "";
-    left: 54.55%;
+    left: 99.55%;
 }
 
 li::before {
