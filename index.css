@@ -962,9 +962,9 @@ li::before {
         width: 70%;
         padding: 1rem;
         position: fixed;
-        
 
-        
+
+
     }
 
     .h-shape {
@@ -975,47 +975,61 @@ li::before {
     }
 
     .image {
-        height: 350px;
+        height: 375px;
         width: 300px;
         top: 0;
         left: 0;
         margin-top: 14rem;
         margin-bottom: 0;
-        margin-left: 3rem;
+        margin-left: 2rem;
     }
 
     .right-content {
         width: 100%;
-        margin:0 ;
+        margin: 0;
         margin-top: 19rem;
         padding: 1rem;
         font-weight: 350;
         text-align: center;
-        h1{
-            margin-top:0;
+
+        h1 {
+            margin-top: 0;
             line-height: 1cm;
-            
-            span{
-                font-size:2.5rem;
+
+            span {
+                font-size: 2.5rem;
                 margin-top: 0;
             }
-            p{
+
+            p {
                 line-height: 1.5cm;
+                font-size: 1.7rem;
             }
         }
 
     }
 
     .left-about {
-        top: 1200px;
+        top: 1000px;
         left: 0;
         padding: 1rem;
         height: auto;
         width: auto;
         display: flex;
         flex-direction: column;
-        
+
+        .g {
+            h1 {
+                font-size: 2rem;
+
+                n {
+                    font-size: 2rem;
+                }
+            }
+        }
+
     }
+
     .socials {
         display: flex;
         flex-direction: column;
@@ -1025,9 +1039,11 @@ li::before {
         cursor: pointer;
         padding: 1rem;
     }
-    .bg-txt{
+
+    .bg-txt {
         display: none;
     }
+
     .info {
         width: 100%;
         margin: 2rem auto;
@@ -1035,19 +1051,44 @@ li::before {
     }
 
     .hire {
-        display: block;
-        flex-direction: column;
-        justify-content: center;
+        display: flex;
+        flex-direction: row;
         align-items: center;
-        margin-top: 35rem;
+        justify-content: center;
+        margin-top: 59rem;
+
+        .cv {
+            width: 150px;
+            height: 40px;
+            background-color: blue;
+            border-radius: 15px;
+            align-content: center;
+            text-align: center;
+            color: white;
+            margin-right: 3rem;
+            font-weight: 400;
+        }
+
+        .me {
+            width: 150px;
+            height: 40px;
+            background-color: blue;
+            border-radius: 15px;
+            align-content: center;
+            text-align: center;
+            color: white;
+            font-weight: 400;
+        }
     }
 
-    .cv,
-    .me {
+    .abtt {
+        h2 {
+            font-size: 4rem;
+        }
+    }
+
+    .about {
         width: 100%;
-        text-align: center;
-        margin: 1rem;
-        font-size: 1.2rem;
     }
 
     .education,
@@ -1065,28 +1106,122 @@ li::before {
     }
 
     .bloog {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         height: auto;
         margin-left: 0;
-        padding: auto;
+        padding: 0;
+        margin-right: 0;
+
     }
+
+    .blogs {
+        margin: 0;
+    }
+
+    .adds {
+        display: none;
+    }
+
+    .blog1 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 
     #theme-btn {
         top: 0%;
         right: 0%;
         width: 50px;
-        height: 30px;
+        height: 20px;
         position: fixed;
+        background-color: none;
+    }
+
+    .contacts {
+        i {
+            font-size: 2.4rem;
+        }
+    }
+
+    .cont {
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+
+    .message {
+        margin-left: 0rem;
+        border: 1px solid blanchedalmond;
+        padding: 1rem;
+        border-radius: 9px;
+        padding-right: 0;
+    }
+
+    .pss {
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .img1 {
+            margin: 1rem;
+            border: 1px yellowgreen;
+
+            img {
+                border: 1px yellowgreen;
+                border-radius: 2rem;
+                box-shadow: 1px 2px 25px rgba(37, 1, 1, 0.1);
+                width: 80%;
+                height: 200px;
+                width: 300px;
+
+                &:hover {
+                    border: 2px #020216;
+                    box-shadow: 1px 4px 15px hsla(140, 94%, 27%, 0.322);
+                }
+            }
+
+        }
+    }
+
+    .port {
+        margin: 0;
+        text-align: center;
+        font-size: 2rem;
+        padding: 0;
+        margin-bottom: 3rem;
+
+
+        p {
+            color: white;
+            display: inline;
+            margin: 0;
+            font-size: 1.5rem;
+            padding: 0;
+            color: blue;
+
+            span {
+                color: grey;
+                margin-right: 1rem;
+                margin-left: 1rem;
+                margin-top: 5rem;
+            }
+        }
+
+
     }
 
     #manipulate {
         left: 0%;
-        top: 0.5%;
-        width: 50px;
+        top: 0%;
         position: fixed;
-        height: 31px;
-        i{
+        width: 0;
+        height: 0;
+        background-color: none;
+
+        i {
             font-size: 1.5rem;
         }
     }
