@@ -959,7 +959,7 @@ li::before {
 
     .controlls {
         height: 100vh;
-        width: 60%;
+        width: 70%;
         padding: 1rem;
         position: fixed;
         
@@ -996,7 +996,7 @@ li::before {
             line-height: 1cm;
             
             span{
-                font-size:2.9rem;
+                font-size:2.5rem;
                 margin-top: 0;
             }
         }
