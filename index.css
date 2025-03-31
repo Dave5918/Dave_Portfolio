@@ -999,6 +999,9 @@ li::before {
                 font-size:2.5rem;
                 margin-top: 0;
             }
+            p{
+                line-height: 1.5cm;
+            }
         }
 
     }
