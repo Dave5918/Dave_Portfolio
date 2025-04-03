@@ -1164,13 +1164,14 @@ li::before {
     .blog1 {
         margin-left: 0;
         margin-right: 0;
+        padding: 0;
 
         h2 {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
 
         p {
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
     }
 
