@@ -968,8 +968,6 @@ li::before {
             padding: 0;
             width: 40px;
             height: 37px;
-            margin-left: 1rem;
-            margin: 2rem;
             border-left: 2px solid blue;
             border-right: 2px solid rgb(243, 243, 7);
 
@@ -979,7 +977,7 @@ li::before {
             }
 
             h3 {
-                left: 35%;
+                left: 37%;
                 font-weight: 400;
                 color: rgb(252, 246, 246);
                 font-size: 1.2rem;
@@ -1009,11 +1007,11 @@ li::before {
     }
 
     .image {
-        height: 375px;
+        height: 420px;
         width: 300px;
         top: 0;
         left: 0;
-        margin-top: 14rem;
+        margin-top: 15rem;
         margin-bottom: 0;
         margin-left: 2rem;
     }
@@ -1021,7 +1019,7 @@ li::before {
     .right-content {
         width: 100%;
         margin: 0;
-        margin-top: 19rem;
+        margin-top: 22rem;
         padding: 1rem;
         font-weight: 350;
         text-align: center;
@@ -1037,14 +1035,14 @@ li::before {
 
             p {
                 line-height: 1.5cm;
-                font-size: 1.7rem;
+                font-size: 1.3rem;
             }
         }
 
     }
 
     .left-about {
-        top: 800px;
+        top: 900px;
         left: 0;
         padding: 0rem;
         height: auto;
@@ -1057,7 +1055,7 @@ li::before {
                 font-size: 2rem;
 
                 n {
-                    font-size: 1.7rem;
+                    font-size: 1rem;
                 }
             }
         }
