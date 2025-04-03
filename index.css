@@ -963,9 +963,43 @@ li::before {
         padding: 1rem;
         position: fixed;
 
+        .ct {
+
+            padding: 0;
+            width: 40px;
+            height: 37px;
+            margin-left: 1rem;
+            margin: 2rem;
+            border-left: 2px solid blue;
+            border-right: 2px solid rgb(243, 243, 7);
+
+            i {
+                font-size: 1rem;
+                color: blue;
+            }
+
+            h3 {
+                left: 35%;
+                font-weight: 400;
+                color: rgb(252, 246, 246);
+                font-size: 1.2rem;
+            }
+        }
+
 
 
     }
+
+    #exit {
+        width: 33px;
+        height: 29px;
+        font-size: 1.7rem;
+        left: 72%;
+        top: 3%;
+
+    }
+
+
 
     .h-shape {
         width: 100%;
@@ -1010,11 +1044,11 @@ li::before {
     }
 
     .left-about {
-        top: 1000px;
+        top: 800px;
         left: 0;
-        padding: 1rem;
+        padding: 0rem;
         height: auto;
-        width: auto;
+        width: 80%;
         display: flex;
         flex-direction: column;
 
@@ -1023,7 +1057,7 @@ li::before {
                 font-size: 2rem;
 
                 n {
-                    font-size: 2rem;
+                    font-size: 1.7rem;
                 }
             }
         }
@@ -1035,9 +1069,9 @@ li::before {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 1rem;
+        margin: 0.8rem;
         cursor: pointer;
-        padding: 1rem;
+        padding: 0rem;
     }
 
     .bg-txt {
@@ -1048,6 +1082,10 @@ li::before {
         width: 100%;
         margin: 2rem auto;
         padding: 0rem;
+
+        p {
+            font-size: 1rem;
+        }
     }
 
     .hire {
@@ -1127,12 +1165,20 @@ li::before {
     .blog1 {
         margin-left: 0;
         margin-right: 0;
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
     }
 
 
     #theme-btn {
-        top: 0%;
-        right: 0%;
+        top: 2%;
+        right: 2%;
         width: 50px;
         height: 20px;
         position: fixed;
@@ -1198,14 +1244,14 @@ li::before {
             color: white;
             display: inline;
             margin: 0;
-            font-size: 1.5rem;
+            font-size: 1rem;
             padding: 0;
             color: blue;
 
             span {
                 color: grey;
-                margin-right: 1rem;
-                margin-left: 1rem;
+                margin-right: 0.7rem;
+                margin-left: 0.7rem;
                 margin-top: 5rem;
             }
         }
@@ -1214,8 +1260,8 @@ li::before {
     }
 
     #manipulate {
-        left: 0%;
-        top: 0%;
+        left: 2%;
+        top: 2%;
         position: fixed;
         width: 0;
         height: 0;
