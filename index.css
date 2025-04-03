@@ -1082,7 +1082,8 @@ li::before {
         padding: 0rem;
 
         p {
-            font-size: 1rem;
+            font-size: 0.7rem;
+            line-height:0.8cm;
         }
     }
 
